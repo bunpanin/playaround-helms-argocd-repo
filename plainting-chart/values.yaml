@@ -9,9 +9,9 @@ replicaCount: 1
 #   pullPolicy: IfNotPresent
 #   tag: "78"
 image:
-  repository: paninbaychar/k8s-react-template
+  repository: paninbaychar/my-planting
   pullPolicy: IfNotPresent
-  tag: "e235024b"
+  tag: "1122"
 # This is for the secrets for pulling an image from a private repository more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
 imagePullSecrets: []
 # This is to override the chart name.
