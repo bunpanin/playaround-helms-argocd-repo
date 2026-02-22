@@ -9,7 +9,7 @@ replicaCount: 1
 #   pullPolicy: IfNotPresent
 #   tag: "78"
 image:
-  repository: docker pull paninbaychar/k8s-react-template
+  repository: paninbaychar/k8s-react-template
   pullPolicy: IfNotPresent
   tag: "07c8a20b"
 # This is for the secrets for pulling an image from a private repository more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
